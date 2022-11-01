@@ -1,0 +1,16 @@
+header{
+    background-color: #141313;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 2rem;
+}
+
+.logout-btn{
+    cursor: pointer;
+    border: 1px solid #aebcf5;
+    color: #aebcf5;
+    padding: 0.6rem 0.8rem;
+    border-radius: 100%;
+}

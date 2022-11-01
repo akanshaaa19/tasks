@@ -1,0 +1,23 @@
+.mainNav{
+    background-color: hsla(0,0%,100%,.027);
+    padding: 2rem 1rem;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    position: fixed;
+}
+
+
+
+ul{
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+.nav{
+    position: fixed;
+}
