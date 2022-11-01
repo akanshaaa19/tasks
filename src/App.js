@@ -2,7 +2,7 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import React, { useContext } from "react";
-import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
+import { BrowserRouter, Route, Switch, Redirect, HashRouter } from "react-router-dom";
 import Collection from "./Components/pages/Collections/Collection";
 import AuthForm from "./Components/UI/authForm/AuthForm";
 import AuthContext from "./Components/store/auth-context";
@@ -12,7 +12,7 @@ import Nav from "./Components/UI/NavBar/Nav";
 function App() {
   const authCtx = useContext(AuthContext);
   return (
-    <BrowserRouter>
+    <HashRouter>
       {authCtx.isLoggedIn ? console.log("hii") : console.log("not hi")}
       <Nav />
       <Switch>
@@ -31,7 +31,7 @@ function App() {
         </Route>
 
       </Switch>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

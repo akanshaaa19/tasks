@@ -10,13 +10,13 @@ function Nav() {
       <div>
         <h1>tasks</h1>
       </div>
-      <div className="logout-btn"
+      {authCtx.isLoggedIn && <div className="logout-btn"
         onClick={() => {
           authCtx.logoutHandeler();
         }}
       >
         <i className="fa-solid fa-user "></i>
-      </div>
+      </div>}
     </header>
   );
 }
