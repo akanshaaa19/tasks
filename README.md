@@ -1,2 +1,1 @@
-## tasks app
-[akanshaaa19.github.io/tasks]
+## [tasks app](akanshaaa19.github.io/tasks)
