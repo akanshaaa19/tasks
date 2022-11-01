@@ -8,7 +8,7 @@ function Nav() {
   return (
     <header>
       <div>
-        <h1>tasks</h1>
+        <h1>taskss</h1>
       </div>
       {authCtx.isLoggedIn && <div className="logout-btn"
         onClick={() => {
